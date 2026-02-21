@@ -2,6 +2,7 @@
 product_numbers.phpt: Unit tests for
 --FILE--
 <?php
+require_once __DIR__ . '/bootstrap.php';
 // $Id$
 // Validate test script
 $noYes = array('NO', 'YES');

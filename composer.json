@@ -27,8 +27,12 @@
         "source": "https://github.com/pear/Validate_ISPN"
     },
     "type": "library",
+    "repository": {
+        "type": "vcs",
+        "url": "https://github.com/redcuillin/Validate"
+    },
     "require": {
-        "pear/validate": "*"
+        "pear/validate": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
